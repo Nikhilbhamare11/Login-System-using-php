@@ -64,15 +64,15 @@
         <form action="/Php Projects/LoginSystem/signup.php" method="post">
             <div class="mb-3">
                 <label for="username" class="form-label">UserName</label>
-                <input type="text" maxlength="11" class="form-control" id="username" name="username" aria-describedby="emailHelp">
+                <input type="text" maxlength="11" class="form-control" id="username" name="username" aria-describedby="emailHelp" required>
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Password</label>
-                <input type="password" maxlength="23" class="form-control" id="password" name="password">
+                <input type="password" maxlength="23" class="form-control" id="password" name="password" required>
             </div>
             <div class="mb-3">
                 <label for="cpassword" class="form-label">Confirm Password</label>
-                <input type="password" class="form-control" id="cpassword" name="cpassword">
+                <input type="password" class="form-control" id="cpassword" name="cpassword" required>
                 <div id="emailHelp" class="form-text">Make sure to type the same password!</div>
             </div>
             <button type="submit" class="btn btn-primary">SignUp</button>
